@@ -2,7 +2,7 @@
 
 Static site generated and maintained by `website_sdk` / `website_post`.
 
-**Live URL (GitHub Pages):** https://r.github.io/rusty-site/
+**Live URL (GitHub Pages):** https://Rostyslav296.github.io/rusty-site/
 
 ## Structure
 ```
@@ -38,4 +38,4 @@ website_sdk git_push      # commit + push to origin/main
 ## Custom domain
 Set a custom domain by writing CNAME in src/ (website_sdk customize_theme custom_domain=your.domain),
 and at your registrar point A records 185.199.108.153 / 109.153 / 110.153 / 111.153 at GitHub Pages,
-with a CNAME record `www` → `r.github.io`.
+with a CNAME record `www` → `Rostyslav296.github.io`.
