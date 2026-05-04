@@ -1,4 +1,4 @@
-# Rusty
+# Rusty - In Depth Deep Dives
 
 Static site generated and maintained by `website_sdk` / `website_post`.
 
