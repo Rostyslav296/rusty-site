@@ -1,27 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://rostyslav296.github.io/rusty-site/about.html</loc>
-    <lastmod>2026-05-04</lastmod>
-  </url>
-  <url>
-    <loc>https://rostyslav296.github.io/rusty-site/blog/index.html</loc>
-    <lastmod>2026-05-04</lastmod>
-  </url>
-  <url>
-    <loc>https://rostyslav296.github.io/rusty-site/blog/posts/2026-05-04-iran-war-latest-developments-may-4.html</loc>
-    <lastmod>2026-05-04</lastmod>
-  </url>
-  <url>
-    <loc>https://rostyslav296.github.io/rusty-site/blog.html</loc>
-    <lastmod>2026-05-04</lastmod>
-  </url>
-  <url>
-    <loc>https://rostyslav296.github.io/rusty-site/contact.html</loc>
-    <lastmod>2026-05-04</lastmod>
-  </url>
-  <url>
     <loc>https://rostyslav296.github.io/rusty-site/index.html</loc>
+    <lastmod>2026-05-04</lastmod>
+  </url>
+  <url>
+    <loc>https://rostyslav296.github.io/rusty-site/posts/2026-05-04-iran-war-latest-developments-may-4.html</loc>
+    <lastmod>2026-05-04</lastmod>
+  </url>
+  <url>
+    <loc>https://rostyslav296.github.io/rusty-site/posts.html</loc>
+    <lastmod>2026-05-04</lastmod>
+  </url>
+  <url>
+    <loc>https://rostyslav296.github.io/rusty-site/social.html</loc>
     <lastmod>2026-05-04</lastmod>
   </url>
 </urlset>

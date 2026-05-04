@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"><channel>
-  <title>Rusty - In Depth Deep Dives</title>
+  <title>Rusty</title>
   <link>https://rostyslav296.github.io/rusty-site</link>
-  <description>Rusty - In Depth Deep Dives</description>
+  <description>Rusty publishes long-form, deeply researched coverage of the stories worth following — geopolitics, conflicts, and global affairs explained in depth.</description>
     <item>
       <title>Iran War: Latest Developments as of May 4, 2026</title>
       <link>https://rostyslav296.github.io/rusty-site/blog/posts/2026-05-04-iran-war-latest-developments-may-4.html</link>
       <guid>https://rostyslav296.github.io/rusty-site/blog/posts/2026-05-04-iran-war-latest-developments-may-4.html</guid>
-      <pubDate>Mon, 04 May 2026 12:24:39 +0000</pubDate>
+      <pubDate>Mon, 04 May 2026 12:57:29 +0000</pubDate>
       <description>Comprehensive update on the Iran War as of May 4, 2026, covering military, diplomatic, and humanitarian impacts across the Middle East.</description>
     </item>
 </channel></rss>

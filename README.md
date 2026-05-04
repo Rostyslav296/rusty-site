@@ -1,4 +1,4 @@
-# Rusty - In Depth Deep Dives
+# Rusty
 
 Static site generated and maintained by `website_sdk` / `website_post`.
 
@@ -8,10 +8,11 @@ Static site generated and maintained by `website_sdk` / `website_post`.
 ```
 src/
   index.html              Home page
-  about.html              About page
-  contact.html            Contact + form
-  blog/index.html         Blog index
-  blog/posts/*.html       Individual posts (managed by website_post)
+  posts.html              Posts archive (matches sample-website)
+  posts/*.html            Individual posts (managed by website_post)
+  social.html             Socials page (optional)
+  about.html              About page (optional)
+  contact.html            Contact + form (optional)
   css/styles.css          All site styling (CSS variables on :root)
   js/main.js              Nav toggle, contact form, smooth scroll, lightbox
   images/                 Site imagery

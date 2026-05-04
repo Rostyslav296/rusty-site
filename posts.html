@@ -4,17 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="index, follow">
-    <title>Rusty | Long-form coverage of the stories worth following.</title>
-    <meta name="description" content="Rusty publishes long-form, deeply researched coverage of the stories worth following — geopolitics, conflicts, and global affairs explained in depth.">
-    <link rel="canonical" href="https://rostyslav296.github.io/rusty-site/index.html">
-        <meta property="og:title" content="Rusty | Long-form coverage of the stories worth following.">
-    <meta property="og:description" content="Rusty publishes long-form, deeply researched coverage of the stories worth following — geopolitics, conflicts, and global affairs explained in depth.">
+    <title>All Posts | Rusty — Long-Form Articles &amp; Coverage</title>
+    <meta name="description" content="Every published post from Rusty — long-form articles, in-depth coverage, and analysis. Search by title, tag, or topic.">
+    <link rel="canonical" href="https://rostyslav296.github.io/rusty-site/posts.html">
+        <meta property="og:title" content="All Posts | Rusty — Long-Form Articles &amp; Coverage">
+    <meta property="og:description" content="Every published post from Rusty — long-form articles, in-depth coverage, and analysis. Search by title, tag, or topic.">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Rusty">
-    <meta property="og:url" content="https://rostyslav296.github.io/rusty-site/index.html">
+    <meta property="og:url" content="https://rostyslav296.github.io/rusty-site/posts.html">
             <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Rusty | Long-form coverage of the stories worth following.">
-    <meta name="twitter:description" content="Rusty publishes long-form, deeply researched coverage of the stories worth following — geopolitics, conflicts, and global affairs explained in depth.">
+    <meta name="twitter:title" content="All Posts | Rusty — Long-Form Articles &amp; Coverage">
+    <meta name="twitter:description" content="Every published post from Rusty — long-form articles, in-depth coverage, and analysis. Search by title, tag, or topic.">
         <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Open%20Sans:wght@400;600&display=swap" rel="stylesheet">
@@ -41,28 +41,29 @@
         </div>
     </header>
 
-    <section class="hero">
-        <div class="hero-content">
-            <h1>Rusty</h1>
-            <p class="tagline">In-depth deep dives — long-form coverage of the stories worth following.</p>
-            <div class="cta-buttons">
-                <a href="posts.html" class="btn btn-primary">Read posts</a>
-            </div>
-        </div>
+    <section class="page-header">
+        <h1>Posts</h1>
+        <p>Every published post. Use the search below to filter by title, tag, or topic.</p>
     </section>
 
-    <section class="section" id="latest">
+    <section class="section">
         <div class="container">
-            <h2 class="section-title">Latest Posts</h2>
-            <div class="reviews-grid">
-                <a class="post-card post-card-link" href="posts/2026-05-04-iran-war-latest-developments-may-4.html">
+            <div class="post-search">
+                <input type="search" id="post-search-input" placeholder="Search posts by title, tag, or topic…" autocomplete="off" aria-label="Search posts">
+                <p class="post-search-meta"><span id="post-search-count">1</span> of 1 posts shown.</p>
+            </div>
+            <div class="reviews-grid" id="post-grid">
+                <a class="post-card post-card-link"
+                   href="posts/2026-05-04-iran-war-latest-developments-may-4.html"
+                   data-search="iran war: latest developments as of may 4, 2026 comprehensive update on the iran war as of may 4, 2026, covering military, diplomatic, and humanitarian impacts across the middle east. "
+                   data-date="2026-05-04">
                     <h3>Iran War: Latest Developments as of May 4, 2026</h3>
                     <p class="post-meta">2026-05-04</p>
                     <p class="post-excerpt">Comprehensive update on the Iran War as of May 4, 2026, covering military, diplomatic, and humanitarian impacts across the Middle East.</p>
                     <span class="post-card-cta">Read &rarr;</span>
                 </a>
             </div>
-            <p class="text-center mt-2"><a href="posts.html" class="btn btn-teal">See all posts &rarr;</a></p>
+            <p class="post-search-empty" id="post-search-empty" hidden>No posts match your search.</p>
         </div>
     </section>
 
