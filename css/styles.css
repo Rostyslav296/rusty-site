@@ -4,16 +4,16 @@
    ================================================================ */
 
 :root {
-    --color-primary: #0e7c7b;
-    --color-primary-dark: #065a5a;
-    --color-primary-light: #12a09f;
-    --color-accent: #d4a843;
-    --color-accent-dark: #b8912e;
-    --color-bg: #f8f9fa;
-    --color-surface: #ffffff;
-    --color-text: #2d3436;
-    --color-text-light: #636e72;
-    --color-text-inverse: #ffffff;
+    --color-primary: #3aa6a4;
+    --color-primary-dark: #1f7c7a;
+    --color-primary-light: #5cd2cf;
+    --color-accent: #e6b94d;
+    --color-accent-dark: #b89236;
+    --color-bg: #000000;
+    --color-surface: #0d0d0f;
+    --color-text: #f3f4f5;
+    --color-text-light: #a8aab0;
+    --color-text-inverse: #000000;
     --color-success: #27ae60;
     --color-error: #e74c3c;
     --font-heading: 'Montserrat', sans-serif;
@@ -273,3 +273,64 @@ article.post-body .post-tags { margin-top: 2rem; }
 .social-nextdoor .social-icon { background: #00b246; }
 .social-yelp .social-icon { background: #d32323; }
 .social-google .social-icon { background: #4285f4; }
+
+
+/* ──────────────────────────────────────────────────────────────
+   Dark-mode overrides (auto-emitted when palette.bg < palette.text).
+   Flip black overlays to white, fill form inputs with --color-surface,
+   give the page-header a slightly lifted background so headings stay
+   readable.
+   ────────────────────────────────────────────────────────────── */
+body { background: var(--color-bg); color: var(--color-text); }
+.header { background: var(--color-surface); border-bottom: 1px solid rgba(255,255,255,0.06); }
+.nav-links a:hover, .nav-links a.active { background: rgba(255, 255, 255, 0.06); }
+.service-card .icon,
+.feature-item .icon,
+.contact-info-card .icon { background: rgba(255, 255, 255, 0.06); }
+.post-card .post-tag { background: rgba(255, 255, 255, 0.08); }
+.review-badge { background: rgba(255, 255, 255, 0.08); }
+.post-card-link:hover { background: rgba(255, 255, 255, 0.02); }
+article.post-body code { background: rgba(255, 255, 255, 0.08); color: var(--color-text); }
+article.post-body pre { background: rgba(255, 255, 255, 0.04); color: var(--color-text); border: 1px solid rgba(255,255,255,0.08); }
+article.post-body blockquote { color: var(--color-text-light); border-left-color: var(--color-accent); }
+.post-search input[type="search"] {
+    background: var(--color-surface);
+    color: var(--color-text);
+    border-color: rgba(255, 255, 255, 0.12);
+}
+.post-search input[type="search"]::placeholder { color: var(--color-text-light); }
+.post-search input[type="search"]:focus { box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.06); }
+.form-group input, .form-group select, .form-group textarea {
+    background: var(--color-surface);
+    color: var(--color-text);
+    border-color: rgba(255, 255, 255, 0.12);
+}
+.form-group input::placeholder, .form-group textarea::placeholder { color: var(--color-text-light); }
+.form-group input:focus, .form-group select:focus, .form-group textarea:focus {
+    box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.06);
+}
+.placeholder-img { background: linear-gradient(135deg, #1a1a1d, #232326); color: #6f7077; }
+.page-header {
+    background: linear-gradient(135deg, var(--color-surface), rgba(255,255,255,0.04));
+    color: var(--color-text);
+    border-bottom: 1px solid rgba(255,255,255,0.06);
+}
+.page-header h1 { color: var(--color-text); }
+.hero {
+    background: linear-gradient(135deg, rgba(0,0,0,0.55), rgba(0,0,0,0.35)),
+                linear-gradient(135deg, var(--color-primary-dark), var(--color-primary));
+    color: var(--color-text);
+}
+.hero h1 { color: var(--color-text); }
+.footer { background: var(--color-surface); border-top: 1px solid rgba(255,255,255,0.06); color: var(--color-text); }
+.footer-info h3, .footer-links h4 { color: var(--color-text); }
+.footer-content { border-bottom-color: rgba(255,255,255,0.08); }
+.footer-links a { color: var(--color-text-light); }
+.footer-links a:hover { color: var(--color-accent); }
+.footer-bottom { color: var(--color-text-light); }
+.post-sources { background: var(--color-surface); }
+.btn-primary { color: #000; }
+.btn-primary:hover { color: #000; }
+@media (max-width: 767px) {
+    .nav-links { background: var(--color-surface); }
+}
